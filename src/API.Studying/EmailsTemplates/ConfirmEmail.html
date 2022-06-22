@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmar E-mail</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style type="text/css">
+		body {
+			Margin: 0;
+			padding: 0;
+      background-color: #F4F7FC;
+		}
+		table {
+			border-spacing: 0;
+		}
+		td {
+			padding: 0;
+      font-family: 'Poppins', sans-serif;
+		}
+		img {
+			border: 0;
+		}
+    .wrapper {
+      width: 100%;
+      table-layout: fixed;
+      background-color: #F4F7FC;
+      padding-bottom: 4rem;
+    }
+
+    .webkit {
+      max-width: 45rem;
+      background-color: white;
+    }
+
+    .table {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 45rem;
+      border-spacing: 0;
+      font-family: sans-serif;
+      color: #212121;
+    }
+
+		@media screen and (max-width: 600px) { 
+		}
+		@media screen and (max-width: 400px) { 
+		}
+	</style>
+</head>
+<body>
+  <center class="wrapper">
+    <div class="webkit">
+      <table class="table" align="center">
+        <tr>
+          <td>
+            <table width="100%" style="border-spacing: 0;">
+              <tr>
+                <td style="background-color:#214888;padding:1rem;text-align:center;">
+                  <a href="http://localhost:3000" target="_blank">
+                    <img src="https://studyingstorage.blob.core.windows.net/config/Logo_horizontal_branco.png" alt="Logo Studying" width="220" title="Logo Studying">
+                  </a>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:2rem 2rem 0;font-weight:700;">
+                  <h1 style="margin-bottom:0;">Olá, {nomeUsuario}!</h1>
+                  <h3 style="margin-top:0;">Seja bem-vindo a Studying!</h3>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <p style="color:#8F8F8F;padding:0 2rem;">Para seguir, basta confirmar seu endereço de e-mail clicando no botão abaixo:</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td align="center">
+                  <p style="color:#8F8F8F;padding:0 2rem;">
+                    <a href="http://localhost:3000/confirm-email?code={token}&email={email}" target="_blank" style="background-color:#3481FF;text-decoration:none;color:#FFFFFF;padding:0.5rem 2rem;border-radius:4px;">Confirmar E-mail</a></p>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <p style="color:#8F8F8F;padding:0 2rem;">Caso não tenha sido você que tentou criar esta conta, desconsidere este e-mail.</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <p style="color:#8F8F8F;padding:0 2rem;margin-bottom:2rem;font-size:12px;">Caso tenha alguma dificuldade para fazer a confirmação no botão acima, copie e cole a URL a seguir no seu navegador: <a href="https://studying.mikedev.com.br/confirm-email?code={token}&email={email}" target="_blank" style="color:#3481FF;text-decoration:none;">https://studying.mikedev.com.br/confirm-email/asfdsnkdbsakjfbdsiuijb#$342432</a></p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="background-color:#E2E3E5;padding:1rem;text-align:center;">
+                  <a href="http://localhost:3000" target="_blank">
+                    <img src="https://studyingstorage.blob.core.windows.net/config/Logo_horizontal_preto.png" alt="Logo Studying" width="120" title="Logo Studying">
+                  </a>
+                  <p style="color:#8F8F8F;padding:0 2rem;">
+                    <a href="http://localhost:3000" target="_blank" style="color:#3481FF;text-decoration:none;">
+                      www.studying.com.br
+                    </a>
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </center>
+</body>
+</html>
